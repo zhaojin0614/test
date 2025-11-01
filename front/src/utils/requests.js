@@ -7,7 +7,7 @@ import axios from 'axios'
 const requests = axios.create({
   // 配置对象
   // 基础路径，发请求的时候
-  baseURL: 'http://localhost:5000',
+  baseURL: '/api',
   // 代表请求超时的时间5s
   timeput: 5000
 })
