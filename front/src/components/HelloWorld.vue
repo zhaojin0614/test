@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { getmsg } from '@/api/helloworld'
+// import { getmsg } from '@/api/helloworld'
 
 export default {
   name: 'HelloWorld',
@@ -17,9 +17,10 @@ export default {
   },
   methods: {
     handleMsg () {
-      getmsg().then(res => {
-        this.msg = res.data
-      })
+      // getmsg().then(res => {
+      //   this.msg = res.data
+      // })
+      window.open('api/hello', '_blank')
     }
   }
 }
