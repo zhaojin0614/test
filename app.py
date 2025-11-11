@@ -12,8 +12,4 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run()
-<<<<<<< HEAD
-    vscode
-=======
-    GitHub
->>>>>>> 26427bbbee71cefe552303c365882c47f46fab19
+    github
